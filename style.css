@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/informatica.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.textareas-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.texto-area {
+    flex: 1;
+    margin: 0 15px; 
+    text-align: left;
+}
+
+.texto-area label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    resize: none;
+}
+
+textarea[readonly] {
+    background: #ffffff;
+    cursor: not-allowed;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.icono {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.icono img {
+    width: 50px; 
+    height: 50px; 
+    vertical-align: middle; 
+}
+
+button[style*="display: none;"] {
+    display: none;
+}
+
+/*Icono de alura*/
+.icono-superior {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.icono-superior img {
+    width: 100px; 
+    height: 100px; 
+}
+
+
+.mensaje-instrucciones {
+    margin-top: 20px;
+    font-size: 18px; 
+    color: #ffffff;
+    letter-spacing: 0.5px; 
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1>Encriptador y Desencriptador</h1>
+            <div class="textareas-container">
+                <div class="texto-area">
+                    <label for="entrada">Texto original</label>
+                    <textarea id="entrada" placeholder="Escribe aquí tu texto..."></textarea>
+                </div>
+                <div class="texto-area">
+                    <label for="resultado">Resultado</label>
+                    <textarea id="resultado" placeholder="Aquí aparecerá el texto cifrado o descifrado..." readonly></textarea>
+                </div>
+            </div>
+            <button id="cifrar">Cifrar</button>
+            <button id="descifrar">Descifrar</button>
+            <button id="copiar" style="display: none;">Copiar</button>
+            <button id="pegar" style="display: none;">Pegar</button>
+            <button id="clear-input">Limpiar</button>
+
+            <p class="mensaje-instrucciones">Solo letras minúsculas y sin acentos</p>
+        </div>
+    </div>
+    <footer>
+        <p>Creado por Wuilliams González y Alura Latam 2024</p>
+        <div class="redes">
+            <a href="https://github.com/WuilliamsGonzalez" target="_blank" class="icono">
+                <img src="assets/github-142-svgrepo-com.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/wuilliams-gonz%C3%A1lez-53050b160/" target="_blank" class="icono">
+                <img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+
+    <div class="icono-superior">
+        <img src="assets/unnamed.png" alt="Ícono Superior">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
